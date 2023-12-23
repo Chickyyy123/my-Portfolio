@@ -114,6 +114,13 @@ body {
   margin-top: -15px;
   color: rgb(189, 186, 186);
 }
+.image img {
+  transform: scale(0.99);
+  transition: 0.5s;
+}
+.image img:hover {
+  transform: scale(1);
+}
 /* Footer =====================================================================================*/
 .bg-pink {
   background-color: pink;
