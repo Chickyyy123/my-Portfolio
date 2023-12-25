@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.about-container{
+	background: #081b09;
+	padding: 40px;
+}
+.about-container .about-title{
+	text-align: center;
+	text-transform: uppercase;
+	color: gray;
+}
+.about-container h2{
+	text-align: center;
+	font-size: 50px;
+	color: darkgray;
+	margin-top: 20px;
+}
+.about-middle-container{
+	padding: 40px;
+	width: 100%;
+	margin-top: 20px;
+}
+.about-middle-container::after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+.about-middle-container .left-section, .right-section{
+	float: left;
+	width: 50%
+}
+.about-middle-container .left-section p{
+	color: #7d7c7c;
+	font-size: 120%;
+}
+.about-middle-container .right-section img{
+	margin-left: 60px;
+	width: 90%;
+}
+.about-experience-section{
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+}
+.about-experience-section .about-title{
+	text-align: center;
+	text-transform: uppercase;
+	color: gray;
+	margin: 40px 0px 20px 0px;
+}
+.about-experience-section h2{
+	text-align: center;
+	font-size: 50px;
+	color: darkgray;
+	width: 100%
+}
+.about-experience-section .card1, .card2, .card3, .card4{
+	float: left;
+	width: 25%;
+	margin-top: 40px;
+	padding: 40px;
+}
+.about-experience-section img{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.about-experience-section .text .paragraph{
+	color: gray;
+	margin: 20px 0px 0px 0px;
+}
+.about-experience-section .text p.title{
+	font-size: 30px;
+	color: gray;
+	text-align: center;
+}
