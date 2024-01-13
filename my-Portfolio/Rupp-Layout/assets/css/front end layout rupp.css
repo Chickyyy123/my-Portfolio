@@ -1,0 +1,645 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+span.red {
+    color: red;
+}
+
+/* Header */
+.background-header{
+    width: 100%;
+    background-color: #eef2f4;
+}
+
+#header {
+    width: 960px;
+    overflow: hidden;
+    background-color: #eef2f4;
+    color: #990000;
+    margin: 0 auto;
+}
+
+#header .logo {
+    width: 110px;
+    height: 130px;
+    display: block;
+    float: left;
+    /* background-color: red; */
+}
+
+#header .logo img {
+    width: 100%;
+    height: auto;
+}
+
+#header .menu {
+    width: 1000px;
+    margin: 1rem;
+    /* background-color: aqua; */
+}
+
+#header .menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#header .menu ul li {
+    display: inline;
+}
+
+#header .menu li a {
+    font-size: 11px;
+    color: #990000;
+    text-decoration: none;
+    border-bottom: dotted;
+    margin-inline-start: 0.4rem;
+}
+
+#header .text {
+    color: black;
+    display: table-cell;
+}
+
+#header h4,
+h3 {
+    margin-inline-start: 0.4rem;
+}
+
+#header h4 {
+    text-align: right;
+    margin-right: 10px;
+}
+
+#header .menu li a:hover {
+    border-bottom: none;
+}
+
+/* Navigation bar */
+.backgorund-navigation{
+    width: 100%;
+    background-color: #990000;
+}
+
+#navigation-bar {
+    width: 1210px;
+    background-color: #990000;
+    margin: 0 auto;
+}
+
+#navigation-bar ul {
+    display: table-cell;
+    list-style: none;
+    overflow: hidden;
+}
+
+#navigation-bar li {
+    display: inline;
+    display: table-cell;
+}
+
+#navigation-bar li a {
+    color: white;
+    text-decoration: none;
+    display: table-cell;
+    min-width: 51px;
+    max-width: 151px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    height: 60px;
+    padding: 0px 20px;
+
+}
+
+#navigation-bar li a:hover {
+    background-color: #7f4e00;
+}
+
+/* SLide */
+.slide-show {
+    position: relative;
+}
+
+.slide-show .slide {
+    width: 960px;
+    height: auto;
+    float: left;
+    z-index: 1;
+}
+
+.slide-show .slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.left-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333333;
+    position: absolute;
+    right: -6%;
+    top: 50%;
+    transform: translate(-40%, 200%);
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    transition: .3s;
+    z-index: -1;
+}
+
+.right-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333333;
+    position: absolute;
+    left: -6%;
+    top: 50%;
+    transform: translate(40%, 200%);
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    transform: .3S;
+    z-index: -1;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    background-color: #990000;
+}
+
+/* Pagination */
+ul.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    display: block;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    background-color: #333333;
+    border-radius: 50%;
+    margin: 10px 8px;
+}
+
+ul.pagination .current {
+    background-color: green;
+}
+
+ul.pagination li a:hover {
+    background-color: green;
+}
+
+/* section content */
+.col-left-70 {
+    float: left;
+    width: 70%;
+}
+
+/* invitation-50 */
+.col-left-70 p {
+    padding: 10px;
+}
+
+.col-left-70 .invitation-50 {
+    width: 50.5%;
+    height: 300px;
+    padding: 10px;
+    border-top: 5px solid #990000;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background-color: #eef2f4;
+    float: left;
+}
+
+.col-left-70 .invitation-50 .pdf {
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid #7f4e00;
+    padding: 5px;
+}
+
+.col-left-70 .invitation-50 .pdf img {
+    width: 200px;
+    height: 200px;
+}
+
+.col-left-70 .invitation-50 .pdf a {
+    text-decoration: none;
+}
+
+.col-left-70 .invitation-50 .pdf span {
+    color: #990000;
+    padding-bottom: 10px;
+}
+
+.col-left-70 .invitation-50 .pdf a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(138, 11, 11);
+}
+
+/* Shoolarship-50 */
+.col-left-70 .scholarship-50 {
+    border-top: 5px solid #990000;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background-color: #eef2f4;
+    float: left;
+    width: 48%;
+    height: 300px;
+    margin-left: 10px;
+    padding: 30px;
+}
+
+.col-left-70 .scholarship-50 h3 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.col-left-70 .scholarship-50 .red {
+    color: red;
+}
+
+.col-left-70 .scholarship-50 .date {
+    font-style: italic;
+}
+
+.col-left-70 .scholarship-50 a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.col-left-70 .scholarship-50 h4 {
+    text-align: right;
+    font-size: 14px;
+    color: #990000;
+    margin: 30px 0px 5px 0px;
+}
+
+.col-left-70 .scholarship-50 .red:hover,
+h4:hover {
+    text-decoration: underline;
+}
+
+/* News */
+.news-container {
+    width: 100%;
+    border-top: 5px solid #990000;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background-color: #eef2f4;
+    margin-top: 5px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.news-container h3 {
+    margin-bottom: 30px;
+}
+
+article.news-container .news-60 {
+    float: left;
+    width: 60%;
+}
+
+article .news-container .news-60 .first-news-100 .image {
+    width: 100%;
+}
+
+.news-container .news-60 .first-news-100 .image img {
+    width: 40%;
+    height: auto;
+    border: 2px solid #7f4e00;
+    padding: 10px;
+    float: left;
+}
+
+.news-container .news-60 .first-news-100 .text {
+    float: left;
+    width: 53%;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.news-60 a {
+    text-decoration: none;
+}
+
+a span.red {
+    color: red;
+    text-decoration: none;
+}
+
+.date {
+    font-style: italic;
+}
+
+.news-60 a:hover,
+.news-40 a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+/* second news */
+article.news-container .news-60 .second-news-100{
+    display: block;
+    margin-top: 40px;
+}
+.news-container .news-60 .second-news-100 .image img {
+    width: 40%;
+    height: auto;
+    border: 2px solid #7f4e00;
+    padding: 10px;
+    float: left;
+}
+
+.news-container .news-60 .second-news-100 .text {
+    float: left;
+    width: 53%;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+/* new-40 */
+article.news-container .news-40 {
+    float: left;
+    width: 40%;
+}
+
+article.news-container .news-40 .image {
+    padding: 0px 40px;
+}
+
+.news-40 .image img {
+    width: 100%;
+}
+
+.news-40 .text {
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+    text-align: justify;
+}
+
+.news-60 a,
+.news-40 a {
+    text-decoration: none;
+}
+
+a span.red {
+    color: red;
+    text-decoration: none;
+}
+
+.more-news {
+    display: block;
+    padding: 30px 0px 0px 70px;
+    font-size: 13px;
+}
+
+.news-60 a:hover,
+.news-40 a:hover {
+    text-decoration: underline;
+}
+
+/* aside */
+.col-right-30 {
+    float: left;
+    width: 29.5%;
+}
+
+/* folder, Notice Board and hotspot */
+.col-right-30 .folder-100, .notice-board, .container-un, .hotspot, .best-it, .student-life{
+    border-top: 5px solid #990000;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background-color: #eef2f4;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 5px;
+    padding: 30px;
+    line-height: 22px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.col-right-30 .folder-100 h3 {
+    margin-top: -20px;
+}
+
+.col-right-30 b {
+    font-size: 14px;
+}
+
+.col-right-30 ul.number {
+    list-style-type: decimal;
+}
+
+.col-right-30 ul a {
+    color: #990000;
+    text-decoration: none;
+}
+
+.col-right-30 ul a:hover {
+    text-decoration: underline;
+}
+
+.col-right-30 .notice-board h3 {
+    margin-top: -20px;
+}
+
+.col-right-30 ul a {
+    color: #990000;
+    text-decoration: none;
+}
+
+.col-right-30 ul a:hover {
+    text-decoration: underline;
+}
+
+.hotspot .text a {
+    color: blue;
+    text-decoration: none;
+}
+
+.hotspot .text a:hover {
+    text-decoration: underline;
+}
+
+/* Overview */
+article.overview {
+    width: 100%;
+    border-top: 5px solid #990000;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background-color: #eef2f4;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.overview-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #990000;
+    color: white;
+    padding: 10px;
+}
+.overview .border{
+    border: 100px;
+}
+.overview .image{
+    float: left;
+    width: 20%;
+    height: 160px;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+}
+.overview .image img{
+    width: 100%;
+    height: 100px;
+}
+.overview .find-us{
+    padding: 10px;
+    overflow: hidden;
+}
+.overview .find-us-20{
+    float: left;
+    width: 20%;
+    background-color: #990000;
+    height: 200px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+    padding: 10px;
+}
+.overview .find-us-60{
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+    height: 200px;
+    padding: 10px;
+}
+.overview form{
+    background-color: #ddd;
+    padding: 10px;
+}
+.overview form input[type=text]{
+    width: 60%;
+    padding: 16px 20px;
+    outline: none;
+    border: none;
+}
+.overview form input[type=button]{
+    width: 38%;
+    padding: 16px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.overview .social-20{
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+    height: 200px;
+    padding: 10px;
+}
+.overview .social-20 i{
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.overview form input[type=button]:hover{
+    background-color: #990000;
+    color: white;
+}
+
+/* container-un */
+.container-un img{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* best it */
+.best-it img{
+    width: 215px;
+    height: 150px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.best-it p{
+    text-align: center;
+}
+
+/* Student life */
+.student-life h3{
+    margin-bottom: 10px;
+}
+.student-life a{
+    color: red;
+    text-decoration: none;
+}
+.student-life a:hover{
+    text-decoration: underline;
+    
+}
+
+/* Footer */
+footer.footer {
+        border-top: 5px solid #990000;
+        border-left: 2px solid gray;
+        border-right: 2px solid gray;
+        border-bottom: 2px solid gray;
+        background-color: #eef2f4;
+        width: 100%;
+        overflow: hidden;
+        padding: 30px;
+        line-height: 22px;
+        font-size: 13px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+footer.footer a{
+    color: red;
+    text-decoration: none;
+}
+footer.footer a:hover{
+    text-decoration: underline;
+}
