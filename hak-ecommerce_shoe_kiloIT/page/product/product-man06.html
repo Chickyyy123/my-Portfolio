@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/Picture/favicon.png"
+      type="image/x-icon"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/6f41302b1b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../../assets/Css/style.css" />
+    <title>Shoe Ecommerce</title>
+  </head>
+  <body>
+    <!-- Top Header =================================================================================-->
+    <header>
+      <div class="top text-center bg-gray text-gray">
+        <p>Free Express Shipping on all orders with all duties included</p>
+      </div>
+    </header>
+    <!-- Navigation Section =============================================================================-->
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><a href="../../index.html">HAK-STORE</a></div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="../../index.html">HOME</a></li>
+          <li><a href="../../page/man/man.html">MEN</a></li>
+          <li>
+            <a href="../../page/woman/woman.html">WOMAN</a>
+          </li>
+          <li>
+            <a href="../../page/collection/collection.html">COLLECTION</a>
+          </li>
+          <li><a href="../../page/sale/sale.html">SALE</a></li>
+          <li><a href="../../page/contact/contact.html">CONTACT</a></li>
+          <li>
+            <!-- Trigger/Open The Modal -->
+            <span id="myBtn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p style="color: black; margin-bottom: 20px">
+                  Shopping Cart
+                  <span class="add-to-cart">0</span>
+                </p>
+                <hr />
+                <div class="product-cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p>No products in the cart.</p>
+                  <a href="../page/collection/collection.html">
+                    <button style="cursor: pointer">Continue Shopping</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="../login/login.html"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+    <!-- Product ======================================================================================-->
+    <section>
+      <div class="product-background">
+        <div class="products">
+          <div class="product">
+            <div class="image">
+              <img
+                src="../../assets/Picture/man-shoe6.jpg"
+                alt="Product_Image"
+              />
+            </div>
+            <div class="text-product">
+              <h1>Men’s Classic Blue</h1>
+              <p class="prices">
+                <span class="price">$79.90</span> & Free Shipping
+              </p>
+              <p>
+                Auctor eros suspendisse tellus venenatis sodales purus non
+                pellentesque amet, nunc sit eu, enim fringilla egestas pulvinar
+                odio feugiat consectetur egestas magna pharetra cursus risus,
+                lectus enim eget eu et lobortis faucibus.
+              </p>
+              <div class="number">
+                <div class="add-to-carts pointer">-</div>
+                <div class="add-to-carts">1</div>
+                <div class="add-to-carts pointer">+</div>
+              </div>
+              <div class="add-to-cart-text">ADD TO CART</div>
+              <div class="clearfix"></div>
+              <p class="category">
+                Categories : <a href="../man/man.html">Man</a>
+              </p>
+              <div class="payment">
+                <img
+                  src="../../assets/Picture/payment.jpg"
+                  alt="paymen_image"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Description Product=========================================================================== -->
+          <div class="desctiption">
+            <h2>Description</h2>
+            <p class="texts">
+              Auctor eros suspendisse tellus venenatis sodales purus non
+              pellentesque amet, nunc sit eu, enim fringilla egestas pulvinar
+              odio feugiat consectetur egestas magna pharetra cursus risus,
+              lectus enim eget eu et lobortis faucibus.
+            </p>
+            <p class="texts">
+              Eget odio justo ut scelerisque purus non aliquam adipiscing amet
+              condimentum ligula diam erat sodales pharetra accumsan
+              pellentesque at sem at eget ac hendrerit odio enim felis sit augue
+              lorem egestas dictum vestibulum a etiam nisi, elit augue volutpat
+              porta scelerisque nullam at leo faucibus cursus metus.
+            </p>
+            <p class="texts">
+              Viverra nunc iaculis id sed diam nam quam id sapien pellentesque
+              quam sed eu augue id ac tempus aliquam facilisis vivamus eget nisi
+              id.
+            </p>
+            <h1>Related products</h1>
+            <div class="row d-flex justify-content-between">
+              <div class="product1">
+                <a href="../product/product07.html">
+                  <div class="col-4">
+                    <div class="image">
+                      <img
+                        src="../../assets/Picture/shoe7.jpg"
+                        alt=""
+                        width="100%"
+                      />
+                      <div class="quick-view">Quick View</div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-center mt-1">
+                  <h2>Men’s Classic Blue</h2>
+                  <p>$69.00</p>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                </div>
+              </div>
+              <div class="product2">
+                <a href="../product/product08.html">
+                  <div class="col-4">
+                    <div class="image">
+                      <img
+                        src="../../assets/Picture/shoe8.jpg"
+                        alt=""
+                        width="100%"
+                      />
+                      <div class="quick-view">Quick View</div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-center mt-1">
+                  <h2>Men’s Classic Blue</h2>
+                  <p>$89.90</p>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                </div>
+              </div>
+              <div class="product3">
+                <a href="../product/product09.html">
+                  <div class="col-4">
+                    <div class="image">
+                      <img
+                        src="../../assets/Picture/shoe9.jpg"
+                        alt=""
+                        width="100%"
+                      />
+                      <div class="quick-view">Quick View</div>
+                    </div>
+                  </div>
+                </a>
+                <div class="text-center mt-1">
+                  <h2>Men’s Classic Blue</h2>
+                  <p>$79.90</p>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                  <i class="fa-solid fa-star text-yellow-light"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer ========================================================================================-->
+    <footer>
+      <!-- first Picture footer -->
+      <div class="footer-image">
+        <img
+          src="../../assets/Picture/footer-image.jpg"
+          alt="footer_image"
+          class="w-100"
+        />
+        <div class="overlays">
+          <h1>Better for People & the Planet</h1>
+          <p>
+            Ut eget at et aliquam sit quis nisl, pharetra et ac pharetra est
+            dictum in vulputate
+          </p>
+          <a href="../man/man.html">
+            <button>SHOP MAN</button>
+          </a>
+          <a href="../woman/woman.html">
+            <button>SHOP WOMAN</button>
+          </a>
+        </div>
+      </div>
+      <!-- second footer -->
+      <div class="container">
+        <div class="second-footer">
+          <div class="border-right border-1">
+            <i class="fa-solid fa-lock"></i>
+            <span>Secure Payment</span>
+          </div>
+          <div class="border-right border-2">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span> Express Shipping</span>
+          </div>
+          <div class="border-3">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <span> Free Return</span>
+          </div>
+        </div>
+        <div class="border-hr">
+          <hr />
+        </div>
+      </div>
+      <!-- Third Footer -->
+      <div class="container third-footer">
+        <div class="row-footer">
+          <div class="col-4">
+            <h1>Hak-Store</h1>
+            <p>
+              Praesent eget tortor sit risus egestas nulla pharetra ornare quis
+              bibendum est bibendum sapien proin nascetur.
+            </p>
+          </div>
+          <div class="col-4">
+            <h1>Follow Us</h1>
+            <p>
+              Felis semper duis massa scelerisque ac amet porttitor ac tellus
+              venenatis aliquam varius mauris intege
+            </p>
+            <div class="social">
+              <a href="https://www.instagram.com/heang__kimhak/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCJbtn8BDMcJ7a5wyMiQ_4FA"
+                target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a
+                href="https://web.facebook.com/profile.php?id=100014518718675"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://gitlab.com/heangkimhak11" target="_blank"
+                ><i class="fa-brands fa-gitlab"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-4">
+            <h1>Our Location</h1>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250151.46368057447!2d104.72537339680952!3d11.57931763738092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513dc76a6be3%3A0x9c010ee85ab525bb!2z4Z6X4Z-S4Z6T4Z-G4Z6W4Z-B4Z6J!5e0!3m2!1skm!2skh!4v1703409878591!5m2!1skm!2skh"
+              width="600"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- Forth Footer -->
+      <div class="forth-footer bg-gray">
+        <div class="container text-gray">
+          <p>© 2023 Recycled Shoe Hak-Store. Powered by Heang Kimhak.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      AOS.init();
+    </script>
+    <script src="../../assets/javaScript/script.js"></script>
+  </body>
+</html>

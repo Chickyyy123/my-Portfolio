@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../hak-ecommerce_shoe_kiloIT/assets/Picture/favicon.png"
+      type="image/x-icon"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/6f41302b1b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="../hak-ecommerce_shoe_kiloIT/assets/Css/style.css"
+    />
+    <title>Shoe Ecommerce</title>
+  </head>
+  <body>
+    <!-- Top Header =================================================================================-->
+    <header>
+      <div class="top text-center bg-gray text-gray">
+        <p>Free Express Shipping on all orders with all duties included</p>
+      </div>
+    </header>
+    <!-- Navigation Section =============================================================================-->
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="../hak-ecommerce_shoe_kiloIT/index.html">HAK-STORE</a>
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li>
+            <a
+              href="../hak-ecommerce_shoe_kiloIT/hak-ecommerce_shoe_kiloIT/index.html"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a href="../hak-ecommerce_shoe_kiloIT/page/man/man.html">MEN</a>
+          </li>
+          <li>
+            <a href="../hak-ecommerce_shoe_kiloIT/page/woman/woman.html"
+              >WOMAN</a
+            >
+          </li>
+          <li>
+            <a
+              href="../hak-ecommerce_shoe_kiloIT/page/collection/collection.html"
+              >COLLECTION</a
+            >
+          </li>
+          <li>
+            <a href="../hak-ecommerce_shoe_kiloIT/page/sale/sale.html">SALE</a>
+          </li>
+          <li>
+            <a href="../hak-ecommerce_shoe_kiloIT/page/contact/contact.html"
+              >CONTACT</a
+            >
+          </li>
+          <li>
+            <!-- Trigger/Open The Modal -->
+            <span id="myBtn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p style="color: black; margin-bottom: 20px">
+                  Shopping Cart
+                  <span class="add-to-cart">0</span>
+                </p>
+                <hr />
+                <div class="product-cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p>No products in the cart.</p>
+                  <a
+                    href="../hak-ecommerce_shoe_kiloIT/page/collection/collection.html"
+                  >
+                    <button style="cursor: pointer">Continue Shopping</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="../hak-ecommerce_shoe_kiloIT/page/login/login.html"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+    <main>
+      <!-- Banner ======================================================================================-->
+      <section>
+        <div class="banner">
+          <div class="image">
+            <div class="overlay">
+              <div class="text-banner">
+                <h1 class="text-white">Love the Planet we walk on</h1>
+                <p class="text-white">
+                  Bibendum fermentum, aenean donec pretium aliquam blandit
+                  tempor imperdiet arcu arcu ut nunc in dictum mauris at ut.
+                </p>
+                <a href="../hak-ecommerce_shoe_kiloIT/page/man/man.html">
+                  <button class="text-black">SHOP MEN</button>
+                </a>
+                <a
+                  href="../hak-ecommerce_shoe_kiloIT/page/woman/woman.html"
+                  class="ms-1"
+                >
+                  <button class="text-black">SHOP WOMEN</button>
+                </a>
+              </div>
+            </div>
+            <img
+              src="../hak-ecommerce_shoe_kiloIT/assets/Picture/banner.png"
+              alt="banner_shoe"
+              class="w-100"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Swiper ======================================================================================-->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/Picture/1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/Picture/2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/Picture/3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/Picture/4.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/Picture/5.png" alt="" />
+          </div>
+        </div>
+        <hr />
+      </div>
+      <!-- About Us ===================================================================================-->
+      <section>
+        <div class="about-us">
+          <div class="image">
+            <img
+              src="../hak-ecommerce_shoe_kiloIT/assets/Picture/image-about.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h6 class="text-yellow-light">ABOUT US</h6>
+            <h2>Selected materials designed for comfort and sustainability</h2>
+            <p class="text-gray">
+              Nullam auctor faucibus ridiculus dignissim sed et auctor sed eget
+              auctor nec sed elit nunc, magna non urna amet ac neque ut quam
+              enim pretium risus gravida ullamcorper adipiscing at ut magna.
+            </p>
+            <a href="#"><p class="underline text-black">Read More</p></a>
+          </div>
+        </div>
+      </section>
+      <!-- See how your shoes are made =================================================================-->
+      <section>
+        <div class="shoe">
+          <div class="text-center mt-1 shoe-made bg-gray">
+            <h2>See how your shoes are made</h2>
+            <p class="text-gold-light">
+              Urna, felis enim orci accumsan urna blandit egestas mattis egestas
+              feugiat viverra ornare donec adipiscing semper aliquet integer
+              risus leo volutpat nulla enim ultrices
+            </p>
+            <div class="shoe-column">
+              <div class="shoe-one-two">
+                <h6 class="text-yellow-light">01.</h6>
+                <h2>Pet canvas</h2>
+                <p>
+                  Morbi eget bibendum sit adipiscing morbi ac nisl vitae
+                  maecenas nulla cursus
+                </p>
+                <div class="mt-1">
+                  <h6 class="text-yellow-light">02.</h6>
+                  <h2>Algae foam + vegan glue</h2>
+                  <p>Enim tincidunt donec vulputate magna pharetra mattis in</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="../hak-ecommerce_shoe_kiloIT/assets/Picture/how-shoes-are-made-image.png"
+                  alt=""
+                />
+              </div>
+              <div class="shoe-three-four">
+                <h6 class="text-yellow-light">03.</h6>
+                <h2>Organic cotton</h2>
+                <p>A vel ipsum, sed dignissim elementum ultrices amet</p>
+                <div class="mt-1">
+                  <h6 class="text-yellow-light">04.</h6>
+                  <h2>Upcycled plastic bottles</h2>
+                  <p>
+                    Pellentesque viverra amet netus facilisis amet felis odio
+                    tortor orci cursus est
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Best Seller VIEW ALL BEST SELLERS =====================================================-->
+      <section>
+        <div class="container best-sell">
+          <div class="d-flex justify-content-between mt-1">
+            <div>
+              <h4>Our Best Seller</h4>
+            </div>
+            <div>
+              <h5>VIEW ALL BEST SELLERS</h5>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-between">
+            <div class="product1">
+              <a
+                href="../hak-ecommerce_shoe_kiloIT/page/product/product01.html"
+              >
+                <div class="col-4">
+                  <div class="image">
+                    <img
+                      src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe1.jpg"
+                      alt=""
+                    />
+                    <div class="quick-view">Quick View</div>
+                  </div>
+                </div>
+              </a>
+              <div class="text-center mt-1">
+                <h2>Men’s Classic Blue</h2>
+                <p>$69.00</p>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+              </div>
+            </div>
+            <div class="product2">
+              <a
+                href="../hak-ecommerce_shoe_kiloIT/page/product/product02.html"
+              >
+                <div class="col-4">
+                  <div class="image">
+                    <img
+                      src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe2.jpg"
+                      alt=""
+                    />
+                    <div class="quick-view">Quick View</div>
+                  </div>
+                </div>
+              </a>
+              <div class="text-center mt-1">
+                <h2>Men’s Classic Blue</h2>
+                <p>$89.90</p>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+              </div>
+            </div>
+            <div class="product3">
+              <a
+                href="../hak-ecommerce_shoe_kiloIT/page/product/product03.html"
+              >
+                <div class="col-4">
+                  <div class="image">
+                    <img
+                      src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe3.jpg"
+                      alt=""
+                    />
+                    <div class="quick-view">Quick View</div>
+                  </div>
+                </div>
+              </a>
+              <div class="text-center mt-1">
+                <h2>Men’s Classic Blue</h2>
+                <p>$79.90</p>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-between">
+            <div class="product4">
+              <a
+                href="../hak-ecommerce_shoe_kiloIT/page/product/product04.html"
+              >
+                <div class="col-4">
+                  <div class="image">
+                    <img
+                      src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe4.jpg"
+                      alt=""
+                    />
+                    <div class="quick-view">Quick View</div>
+                  </div>
+                </div>
+              </a>
+              <div class="text-center mt-1">
+                <h2>Men’s Classic Blue</h2>
+                <p>$69.00</p>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+              </div>
+            </div>
+            <div class="product5">
+              <a
+                href="../hak-ecommerce_shoe_kiloIT/page/product/product05.html"
+              >
+                <div class="col-4">
+                  <div class="image">
+                    <img
+                      src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe5.jpg"
+                      alt=""
+                    />
+                    <div class="quick-view">Quick View</div>
+                  </div>
+                </div>
+              </a>
+              <div class="text-center mt-1">
+                <h2>Men’s Classic Blue</h2>
+                <p>$74.90</p>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+              </div>
+            </div>
+            <div class="product6">
+              <a
+                href="../hak-ecommerce_shoe_kiloIT/page/product/product06.html"
+              >
+                <div class="col-4">
+                  <div class="image">
+                    <img
+                      src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe6.jpg"
+                      alt=""
+                    />
+                    <div class="quick-view">Quick View</div>
+                  </div>
+                </div>
+              </a>
+              <div class="text-center mt-1">
+                <h2>Men’s Classic Blue</h2>
+                <p>$79.90</p>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+                <i class="fa-solid fa-star text-yellow-light"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Men and Woman ===============================================================================-->
+      <section>
+        <div class="image-product d-flex">
+          <div class="product-man">
+            <img
+              src="../hak-ecommerce_shoe_kiloIT/assets/Picture/product-man.jpg"
+              alt="product_man"
+            />
+            <div class="overlays">
+              <h4>MEN</h4>
+              <a href="../hak-ecommerce_shoe_kiloIT/page/man/man.html">
+                <button>SHOP MEN</button>
+              </a>
+            </div>
+          </div>
+          <div class="product-woman">
+            <img
+              src="../hak-ecommerce_shoe_kiloIT/assets/Picture/product-woman.jpg"
+              alt="product_man"
+            />
+            <div class="overlays">
+              <h4>WOMEN</h4>
+              <a href="../hak-ecommerce_shoe_kiloIT/page/woman/woman.html">
+                <button>SHOP WOMEN</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- New Arrivals ================================================================================-->
+      <div class="container best-sell">
+        <div class="d-flex justify-content-between mt-1">
+          <div>
+            <h4>New Arrivals</h4>
+          </div>
+          <div>
+            <h5>VIEW ALL NEW ARRIVALS</h5>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+          <div class="product1">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product07.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe7.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$69.00</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+          <div class="product2">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product08.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe8.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$89.90</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+          <div class="product3">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product09.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe9.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$79.90</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+          <div class="product4">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product10.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe10.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$69.00</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+          <div class="product5">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product11.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe11.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$74.90</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+          <div class="product6">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product12.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe12.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$79.90</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+          <div class="product1">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product13.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe13.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$69.00</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+          <div class="product2">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product14.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe14.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$89.90</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+          <div class="product3">
+            <a href="../hak-ecommerce_shoe_kiloIT/page/product/product15.html">
+              <div class="col-4">
+                <div class="image">
+                  <img
+                    src="../hak-ecommerce_shoe_kiloIT/assets/Picture/shoe15.jpg"
+                    alt=""
+                  />
+                  <div class="quick-view">Quick View</div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center mt-1">
+              <h2>Men’s Classic Blue</h2>
+              <p>$79.90</p>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+              <i class="fa-solid fa-star text-yellow-light"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- badge =======================================================================================-->
+      <section>
+        <div class="badge">
+          <div class="background d-flex justify-content-between">
+            <div class="col-6">
+              <p>
+                Eu eget felis erat mauris aliquam mattis lacus, arcu leo aliquam
+                sapien pulvinar laoreet vulputate sem aliquet phasellus egestas
+                felis, est, vulputate morbi massa mauris vestibulum dui odio.
+              </p>
+              <div class="image">
+                <img
+                  src="../hak-ecommerce_shoe_kiloIT/assets/Picture/badge1.svg"
+                  alt="badge_image"
+                />
+                <img
+                  src="../hak-ecommerce_shoe_kiloIT/assets/Picture/badge2.svg"
+                  alt="badge_image"
+                />
+                <img
+                  src="../hak-ecommerce_shoe_kiloIT/assets/Picture/badge3.svg"
+                  alt="badge_image"
+                />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="big-badge">
+                <img
+                  src="../hak-ecommerce_shoe_kiloIT/assets/Picture/big badge.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Customers speak for us ==================================================================-->
+      <section>
+        <div class="container">
+          <div class="customer">
+            <h2 class="text-center">Our Customers speak for us</h2>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="customers">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <p>
+                    “Felis semper duis massa scelerisque ac ametsetsr porttitor
+                    ac telluswwefefa venenatis aliquam varius mauris integer”
+                  </p>
+                  <div class="user">
+                    <img src="assets/Picture/avatar.png" alt="" />
+                    <span class="name">Heang Kimhak</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customers">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <p>
+                    “Felis semper duis massa scelerisque ac ametsetsr porttitor
+                    ac telluswwefefa venenatis aliquam varius mauris integer”
+                  </p>
+                  <div class="user">
+                    <img src="assets/Picture/avatar1.jpg" alt="" />
+                    <span class="name">Chickky Meow</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customers">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <p>
+                    “Felis semper duis massa scelerisque ac ametsetsr porttitor
+                    ac telluswwefefa venenatis aliquam varius mauris integer”
+                  </p>
+                  <div class="user">
+                    <img src="assets/Picture/avatar2.jpg" alt="" />
+                    <span class="name">Daddy Hak</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customers">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <p>
+                    “Felis semper duis massa scelerisque ac ametsetsr porttitor
+                    ac telluswwefefa venenatis aliquam varius mauris integer”
+                  </p>
+                  <div class="user">
+                    <img src="assets/Picture/avatar3.jpg" alt="" />
+                    <span class="name">Hak Sumo</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customers">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <p>
+                    “Felis semper duis massa scelerisque ac ametsetsr porttitor
+                    ac telluswwefefa venenatis aliquam varius mauris integer”
+                  </p>
+                  <div class="user">
+                    <img src="assets/Picture/avatar4.jpg" alt="" />
+                    <span class="name">ImYourDad</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="customer">
+            <p class="text-center">4.0 average rating from 1814 reviews</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer ========================================================================================-->
+    <footer>
+      <!-- first Picture footer -->
+      <div class="footer-image">
+        <img
+          src="../hak-ecommerce_shoe_kiloIT/assets/Picture/footer-image.jpg"
+          alt="footer_image"
+          class="w-100"
+        />
+        <div class="overlays">
+          <h1>Better for People & the Planet</h1>
+          <p>
+            Ut eget at et aliquam sit quis nisl, pharetra et ac pharetra est
+            dictum in vulputate
+          </p>
+          <a href="../hak-ecommerce_shoe_kiloIT/page/man/man.html">
+            <button>SHOP MAN</button>
+          </a>
+          <a href="../hak-ecommerce_shoe_kiloIT/page/woman/woman.html">
+            <button>SHOP WOMAN</button>
+          </a>
+        </div>
+      </div>
+      <!-- second footer -->
+      <div class="container">
+        <div class="second-footer">
+          <div class="border-right border-1">
+            <i class="fa-solid fa-lock"></i>
+            <span>Secure Payment</span>
+          </div>
+          <div class="border-right border-2">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span> Express Shipping</span>
+          </div>
+          <div class="border-3">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <span> Free Return</span>
+          </div>
+        </div>
+        <div class="border-hr">
+          <hr />
+        </div>
+      </div>
+      <!-- Third Footer -->
+      <div class="container third-footer">
+        <div class="row-footer">
+          <div class="col-4">
+            <h1>Hak-Store</h1>
+            <p>
+              Praesent eget tortor sit risus egestas nulla pharetra ornare quis
+              bibendum est bibendum sapien proin nascetur.
+            </p>
+          </div>
+          <div class="col-4">
+            <h1>Follow Us</h1>
+            <p>
+              Felis semper duis massa scelerisque ac amet porttitor ac tellus
+              venenatis aliquam varius mauris intege
+            </p>
+            <div class="social">
+              <a href="https://www.instagram.com/heang__kimhak/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCJbtn8BDMcJ7a5wyMiQ_4FA"
+                target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a
+                href="https://web.facebook.com/profile.php?id=100014518718675"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://gitlab.com/heangkimhak11" target="_blank"
+                ><i class="fa-brands fa-gitlab"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-4">
+            <h1>Our Location</h1>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250151.46368057447!2d104.72537339680952!3d11.57931763738092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513dc76a6be3%3A0x9c010ee85ab525bb!2z4Z6X4Z-S4Z6T4Z-G4Z6W4Z-B4Z6J!5e0!3m2!1skm!2skh!4v1703409878591!5m2!1skm!2skh"
+              width="600"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- Forth Footer -->
+      <div class="forth-footer bg-gray">
+        <div class="container text-gray">
+          <p>© 2023 Recycled Shoe Hak-Store. Powered by Heang Kimhak.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      AOS.init();
+    </script>
+    <script src="../hak-ecommerce_shoe_kiloIT/assets/javaScript/script.js"></script>
+  </body>
+</html>

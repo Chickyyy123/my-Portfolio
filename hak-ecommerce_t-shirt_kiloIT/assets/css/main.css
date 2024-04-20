@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+/* Banner====================================================================================== */
+.banner {
+  position: relative;
+}
+.banner .text-banner {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  border: none;
+}
+/* Product Card =================================================================================*/
+.gender {
+  text-align: left;
+  font-size: 15px;
+  color: rgb(177, 181, 183);
+}
+.price {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(154, 158, 162);
+  margin-top: -10px;
+}
+.image {
+  position: relative;
+  overflow: hidden;
+}
+.fa-cart-plus,
+.fa-eye {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.social-icon {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.image:hover .social-icon {
+  position: absolute;
+  right: 20px;
+}
+.fa-cart-plus:hover,
+.fa-eye:hover {
+  background-color: antiquewhite;
+}
+/* Parallax ===================================================================================*/
+.parallax {
+  position: relative;
+  background: url("../image/parallax Image.png") fixed center/cover no-repeat;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.text-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-hover:hover {
+  background-color: #04aa6d;
+}
+/* Text Design =================================================================================*/
+.text-design {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px 0px -100px;
+}
+/* Summer Collection Discount ==================================================================*/
+.discount {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #fafafa;
+  color: rgb(141, 146, 151);
+  padding: 3px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.285);
+}
+/* Reviews =====================================================================================*/
+.fa-star {
+  font-size: 18px;
+  color: rgb(206, 206, 32);
+}
+/* MAN AND WOMAN PRODUCT =======================================================================*/
+.text-gender {
+  background-color: whitesmoke;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+}
+.line-height {
+  margin-top: -15px;
+  color: rgb(189, 186, 186);
+}
+.image img {
+  transform: scale(0.99);
+  transition: 0.5s;
+}
+.image img:hover {
+  transform: scale(1);
+}
+/* Footer =====================================================================================*/
+.bg-pink {
+  background-color: pink;
+  width: 100%;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+input[type="email"] {
+  width: 400px;
+}
+input[type="button"] {
+  width: 150px;
+  background-color: black;
+  color: white;
+}
+footer ul {
+  margin-left: -50px;
+}
+.fa-facebook,
+.fa-youtube,
+.fa-instagram {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  color: black;
+}
+.fa-facebook:hover,
+.fa-youtube:hover,
+.fa-instagram:hover {
+  background-color: #111;
+  color: white;
+}
+/* BUY T-SHIRT PAGE=========================================================================================== */
+.no-more {
+  cursor: not-allowed;
+  border: 1px solid black;
+  width: max-content;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+/* About Page =================================================================================================*/
+.line-seperate {
+  width: 50px;
+  height: 2px;
+}
+/* Parallax ===================================================================================*/
+.parallax-about {
+  position: relative;
+  background: url("../image/parallax\ about.png") fixed center/cover no-repeat;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+.clothing-room {
+  margin-left: -20px;
+}
+/* Box Shadow ==================================================================*/
+.box-shadow {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.222);
+}
+.button-hover-green {
+  background-color: black;
+  transition: 0.3s;
+}
+.button-hover-green:hover {
+  background-color: #04aa6d;
+}
+/* Product Page =================================================================*/
+.color-product {
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  line-height: 35px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+}
+.long-line-seperate {
+  width: 100%;
+  height: 2px;
+}
+.number,
+.number1 {
+  border: 1px solid rgba(0, 0, 0, 0.318);
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+}
+.number {
+  cursor: pointer;
+}
+.add-to-cart {
+  border: 1px solid rgba(0, 0, 0, 0.318);
+  width: 100px;
+  height: 40px;
+  line-height: 35px;
+  cursor: not-allowed;
+}
+.not-allow {
+  cursor: not-allowed;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+/* Responsive ===================================================================*/
+@media only screen and (max-width: 600px) {
+  .text-design {
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-toggler-icon {
+    height: 20px;
+  }
+  .text-banner,
+  p,
+  h3 {
+    font-size: 10px;
+  }
+  .text-banner p {
+    margin-top: -20px;
+  }
+  .text-banner h3 {
+    margin-top: -10px;
+  }
+  .text-banner button {
+    font-size: 7px;
+    padding: 0;
+  }
+  .spring-text {
+    margin-bottom: 30px;
+  }
+  p.man {
+    margin-top: 20px;
+  }
+  input[type="email"] {
+    width: 200px;
+  }
+  input[type="button"] {
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+  }
+  .clothing-room {
+    margin: 20px 0px;
+  }
+  .clothing-room img {
+    width: 100%;
+  }
+  .number,
+  .number1 {
+    border: 1px solid rgba(0, 0, 0, 0.318);
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+  .add-to-cart {
+    border: 1px solid rgba(0, 0, 0, 0.318);
+    width: 60px;
+    height: 20px;
+    line-height: 18px;
+    cursor: not-allowed;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .text-design {
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .clothing-room {
+    margin: 20px 0px;
+  }
+  .clothing-room img {
+    width: 100%;
+  }
+}
